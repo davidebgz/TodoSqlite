@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoSqlite.Android", "TodoSqlite\TodoSqlite.Android\TodoSqlite.Android.csproj", "{FB2DE816-1C0A-4A80-BB61-51A55DA9C337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoSqlite", "TodoSqlite\TodoSqlite\TodoSqlite.csproj", "{17524AD0-EFF7-4458-B46C-D66457CD6768}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB2DE816-1C0A-4A80-BB61-51A55DA9C337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB2DE816-1C0A-4A80-BB61-51A55DA9C337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB2DE816-1C0A-4A80-BB61-51A55DA9C337}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FB2DE816-1C0A-4A80-BB61-51A55DA9C337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB2DE816-1C0A-4A80-BB61-51A55DA9C337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB2DE816-1C0A-4A80-BB61-51A55DA9C337}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{17524AD0-EFF7-4458-B46C-D66457CD6768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17524AD0-EFF7-4458-B46C-D66457CD6768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17524AD0-EFF7-4458-B46C-D66457CD6768}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{17524AD0-EFF7-4458-B46C-D66457CD6768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17524AD0-EFF7-4458-B46C-D66457CD6768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17524AD0-EFF7-4458-B46C-D66457CD6768}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF52AC06-3D83-467E-BDA4-8647559CE432}
+	EndGlobalSection
+EndGlobal
