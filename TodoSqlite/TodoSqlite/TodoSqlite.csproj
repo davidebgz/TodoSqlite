@@ -11,13 +11,24 @@
 
   <ItemGroup>
     <PackageReference Include="sqlite-net-pcl" Version="1.6.258-beta" />
+    <PackageReference Include="SQLiteNetExtensions-netstandard" Version="2.0.0-alpha3" />
     <PackageReference Include="Xamarin.Forms" Version="4.1.0.555618" />
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="View\" />
-    <Folder Include="ViewModels\" />
-    <Folder Include="Service\" />
+    <Folder Include="Service\Sqlite\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="View\Templates\StepItemTemplate.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\TodoItemView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\TodoListView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
